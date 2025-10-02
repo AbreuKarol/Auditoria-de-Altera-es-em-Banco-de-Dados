@@ -1,0 +1,3 @@
+IF OBJECT_ID('<SCHEMA>.trg_audit_<TABELA>') IS NOT NULL
+  DROP TRIGGER <SCHEMA>.trg_audit_<TABELA>;
+GO
